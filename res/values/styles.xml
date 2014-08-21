@@ -1,0 +1,149 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+     <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+    
+          <!-- TableLayout样式 -->
+    <style name="TblInfoDetailFormTitle_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:padding">@dimen/pixels_3</item>
+    </style>
+        <style name="TblInfoDetailFormTitle_Style1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:padding">@dimen/pixels_3</item>
+    </style>
+       <style name="TblInfoDetailFormTitle_Style2">
+        <item name="android:layout_width">wrap_content</item>
+          <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:padding">@dimen/pixels_3</item>
+    </style>
+    
+     <style name="TblInfoDetailFormTitle_Style3">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:padding">@dimen/pixels_3</item>
+    </style>
+    
+    <!-- 头部样式 -->
+	<style name="top_background_style">
+	    <item name="android:background">@drawable/index_title</item>
+	</style>
+	<style name="top_title_style">
+	    <item name="android:layout_centerInParent">true</item>
+	    <item name="android:textSize">@dimen/textsize_20</item>
+	    <item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="top_btnBack_style">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_5</item>
+        <item name="android:background">@drawable/exit</item>
+        <item name="android:text">返回</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+    </style>
+    <style name="top_btnReset_style">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_5</item>
+        <item name="android:layout_marginRight">@dimen/pixels_5</item>
+        <item name="android:background">@drawable/exit</item>
+        <item name="android:tag">0</item>
+        <item name="android:text">重置</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+    </style>
+    <style name="top_btnRight1_style">
+        <item name="android:layout_marginRight">@dimen/pixels_5</item>
+        <item name="android:background">@drawable/exit</item>
+        <item name="android:tag">0</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+    </style>
+    <style name="top_btnRight2_style">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/pixels_5</item>
+        <item name="android:background">@drawable/exit</item>
+        <item name="android:tag">0</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+    </style>
+
+    <style name="FormTop_tab_banner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/topbak</item>
+    </style>
+ <style name="FormTop_map_tab_banner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/main_top_bac</item>
+    </style>
+    
+    <style name="FormCenter_Layoutmain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/main_back2</item>
+    </style>
+
+    <style name="FormTop_btnBack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_12</item>
+        <item name="android:layout_marginTop">@dimen/pixels_4</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:src">@drawable/ht</item>
+    </style>
+
+    <style name="FormTop_TextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/topTextSize</item>
+    </style>
+
+       <style name="FormCenter_Layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/main_menu_back</item>
+        <item name="android:padding">@dimen/pixels_5</item>
+    </style>
+
+    
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        style="@style/top_background_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/top_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14.百度地图界面_1" />
+
+        <Button
+            android:id="@+id/back"
+            style="@style/top_btnBack_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pixels_5"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/delete"
+                style="@style/top_btnRight2_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/title"
+        android:background="#f6f6f6f6"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lin_search" >
+
+        <com.baidutest.map.MyLocationMapViewXY
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <com.baidutest.map.ZoomControlView
+            android:id="@+id/ZoomControlView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginRight="5.0dip" />
+
+        <com.baidutest.map.ScaleView
+            android:id="@+id/scaleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/pixels_10"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/central_point"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:background="@drawable/btn_central_point" />
+
+            <Button
+                android:id="@+id/traffic"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_map_traffic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:layout_marginBottom="10dip" >
+
+            <Button
+                android:id="@+id/pre"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/pre_" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/next_" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="title_main_top">杭州市科技创新服务平台</string>
+    <string name="title_main_kjzc">科技政策</string>
+    <string name="title_main_yqgx">仪器共享</string>
+    <string name="title_main_kjly">科技楼宇</string>
+    <string name="title_main_cgzs">成果展示</string>
+    <string name="title_main_zxhd">在线互动</string>
+    <string name="title_main_jszj">技术专家</string>
+    <string name="title_main_kjqy">科技企业</string>
+    <string name="title_main_jsnt">技术难题</string>
+    <string name="title_main_kjjh">科技计划</string>
+    <string name="title_main_cxzt">创新载体</string>
+    <string name="title_main_fzx">分中心</string>
+    <string name="title_main_lxwm">联系我们</string>
+    <string name="title_main_more">更多</string>
+    <string name="title_main_message">消息</string>
+    <string name="title_main_search">搜索</string>
+    
+    
+    
+    <string name="fj_label">分局</string>
+    <string name="pcs_label">派出所</string>
+    <string name="jws_label">警务室</string>
+    <string name="qt_label">办事网点</string>
+
+        <!-- 输入框hint值 开始 -->
+    <string name="tabview_map_searchkey">请输入地点</string>
+    <string name="tabview_det_searchkey">请输入名称</string>
+	<!-- 输入框hint值 结束 -->
+	
+	
+	 <string name="baidu_map_city">杭州</string>
+</resources>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        style="@style/top_background_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/top_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.百度地图界面_2" />
+
+        <Button
+            android:id="@+id/back"
+            style="@style/top_btnBack_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/pixels_5"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/delete"
+                style="@style/top_btnRight2_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="#f6f6f6f6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tabview_map"
+            style="@style/tabview_map_Style" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:orientation="vertical" >
+
+                <LinearLayout style="@style/mapsearch_form_border" >
+
+                    <ImageButton
+                        style="@style/mapsearch_ImageButton_Left"
+                        android:background="@drawable/map_search_add" />
+
+                    <EditText
+                        android:id="@+id/searchkey"
+                        style="@style/mapsearch_EditText_Style"
+                        android:hint="@string/tabview_map_searchkey" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                 >
+               <!--  <LinearLayout style="@style/map_searchmid" >
+                </LinearLayout> -->
+
+                <Button
+                    android:id="@+id/search"
+                    style="@style/mapsearch_Button_Right"
+                    android:text="搜索" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/map_btnmeno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#fdfbfe"
+            android:orientation="horizontal"
+            android:padding="@dimen/pixels_3"
+            android:paddingLeft="@dimen/pixels_20" >
+
+            <CheckBox
+                android:id="@+id/map_check_txt_fj"
+                android:layout_width="@dimen/pixels_20"
+                android:layout_height="@dimen/pixels_20"
+                android:layout_marginRight="@dimen/pixels_6"
+                android:layout_marginTop="@dimen/pixels_3"
+                android:background="@drawable/map_checkbox"
+                android:button="@null"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/pixels_4"
+                android:text="@string/fj_label"
+                android:textColor="#ed2025"
+                android:textSize="@dimen/textsize_12" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/map_check_txt_pcs"
+                android:layout_width="@dimen/pixels_20"
+                android:layout_height="@dimen/pixels_20"
+                android:layout_marginRight="@dimen/pixels_6"
+                android:layout_marginTop="@dimen/pixels_3"
+                android:background="@drawable/map_checkbox"
+                android:button="@null"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/pixels_4"
+                android:text="@string/pcs_label"
+                android:textColor="#fe9500"
+                android:textSize="@dimen/textsize_12" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/map_check_txt_jws"
+                android:layout_width="@dimen/pixels_20"
+                android:layout_height="@dimen/pixels_20"
+                android:layout_marginRight="@dimen/pixels_6"
+                android:layout_marginTop="@dimen/pixels_3"
+                android:background="@drawable/map_checkbox"
+                android:button="@null"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/pixels_4"
+                android:text="@string/jws_label"
+                android:textColor="#00a9fd"
+                android:textSize="@dimen/textsize_12" >
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/map_check_txt_xz"
+                android:layout_width="@dimen/pixels_20"
+                android:layout_height="@dimen/pixels_20"
+                android:layout_marginRight="@dimen/pixels_6"
+                android:layout_marginTop="@dimen/pixels_3"
+                android:background="@drawable/map_checkbox"
+                android:button="@null"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/pixels_4"
+                android:text="@string/qt_label"
+                android:textColor="#bbd10d"
+                android:textSize="@dimen/textsize_12" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lin_search" >
+
+        <com.baidutest.map.MyLocationMapViewXYZ
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/pixels_10"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/central_point"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:background="@drawable/btn_central_point" />
+
+            <Button
+                android:id="@+id/traffic"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_map_traffic" />
+        </LinearLayout>
+
+  
+
+    </RelativeLayout>
+
+</RelativeLayout>

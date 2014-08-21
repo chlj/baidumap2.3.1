@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_unselected">#ff000000</color>
+    <color name="tab_selected">#ff383838</color>
+    <color name="tab_focus">#ffff8000</color>
+    <color name="tab_press">#ffe9a700</color>
+    <color name="tab_font_unselected">#ff888888</color>
+    <color name="tab_font_selected">#ff188AFF</color>
+    <color name="tab_font_focus">#ffffffff</color>
+    <color name="tab_font_press">#ff888888</color>
+    <color name="black">#FF000000</color>
+    <color name="dkgray">#FF444444</color>
+    <color name="gray">#FF888888</color>
+    <color name="ltgray">#FFCCCCCC</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="ltblue">#2c4683</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="message_view">#d8d8d8</color>
+    <color name="map_detialdis_dh">#0b9001</color>
+    <color name="map_detialdis_view">#625c5c</color>
+    <color name="map_detialdis_text">#010101</color>
+
+</resources>

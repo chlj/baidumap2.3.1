@@ -1,0 +1,206 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <dimen name="topTextSize">14sp</dimen>  
+    
+    <dimen name="main_top_mid">14sp</dimen>  
+    <dimen name="main_top_cnt">6sp</dimen> 
+    <dimen name="main_weather_cityname">8sp</dimen>
+    <dimen name="main_weather_temperature">14sp</dimen>
+    <dimen name="main_weather_weather">6sp</dimen>
+    <dimen name="main_xxphhm">17sp</dimen>
+    
+    
+    <dimen name="textsize_10">6sp</dimen>
+    <dimen name="textsize_11">7sp</dimen>
+    <dimen name="textsize_12">8sp</dimen>
+    <dimen name="textsize_13">9sp</dimen>
+    <dimen name="textsize_14">10sp</dimen>
+    <dimen name="textsize_15">11sp</dimen>
+    <dimen name="textsize_16">12sp</dimen>
+    <dimen name="textsize_17">13sp</dimen>
+    <dimen name="textsize_18">14sp</dimen>
+    <dimen name="textsize_19">15sp</dimen>
+    
+    <dimen name="textsize_20">16sp</dimen>
+    <dimen name="textsize_21">17sp</dimen>
+    <dimen name="textsize_22">18sp</dimen>
+    <dimen name="textsize_23">19sp</dimen>
+    <dimen name="textsize_24">20sp</dimen>
+    <dimen name="textsize_25">21sp</dimen>
+    <dimen name="textsize_26">22sp</dimen>
+    <dimen name="textsize_27">23sp</dimen>
+    <dimen name="textsize_28">24sp</dimen>
+    <dimen name="textsize_29">25sp</dimen>
+    <!-- 其他 -->
+    <dimen name="pixels_0">-4dip</dimen>
+    <dimen name="pixels_1">-3dip</dimen>
+    <dimen name="pixels_2">-2dip</dimen>
+    <dimen name="pixels_3">-1dip</dimen>
+    <dimen name="pixels_4">0dip</dimen>
+    <dimen name="pixels_5">1dip</dimen>
+    <dimen name="pixels_6">2dip</dimen>
+    <dimen name="pixels_7">3dip</dimen>
+    <dimen name="pixels_8">4dip</dimen>
+    <dimen name="pixels_9">5dip</dimen>
+    
+    <dimen name="pixels_10">6dip</dimen>
+    <dimen name="pixels_11">7dip</dimen>
+    <dimen name="pixels_12">8dip</dimen>
+    <dimen name="pixels_13">9dip</dimen>
+    <dimen name="pixels_14">10dip</dimen>
+    <dimen name="pixels_15">11dip</dimen>
+    <dimen name="pixels_16">12dip</dimen>
+    <dimen name="pixels_17">13dip</dimen>
+    <dimen name="pixels_18">14dip</dimen>
+    <dimen name="pixels_19">15dip</dimen>
+   
+    <dimen name="pixels_20">16dip</dimen>
+    <dimen name="pixels_21">17dip</dimen>
+    <dimen name="pixels_22">18dip</dimen>
+    <dimen name="pixels_23">19dip</dimen>
+    <dimen name="pixels_24">20dip</dimen>
+    <dimen name="pixels_25">21dip</dimen>
+    <dimen name="pixels_26">22dip</dimen>
+    <dimen name="pixels_27">23dip</dimen>
+    <dimen name="pixels_28">24dip</dimen>
+    <dimen name="pixels_29">25dip</dimen>
+    
+    <dimen name="pixels_30">26dip</dimen>
+    <dimen name="pixels_31">27dip</dimen>
+    <dimen name="pixels_32">28dip</dimen>
+    <dimen name="pixels_33">29dip</dimen>
+    <dimen name="pixels_34">30dip</dimen>
+    <dimen name="pixels_35">31dip</dimen>
+    <dimen name="pixels_36">32dip</dimen>
+    <dimen name="pixels_37">33dip</dimen>
+    <dimen name="pixels_38">34dip</dimen>
+    <dimen name="pixels_39">35dip</dimen>
+   
+    <dimen name="pixels_40">36dip</dimen>
+    <dimen name="pixels_41">37dip</dimen>
+    <dimen name="pixels_42">38dip</dimen>
+    <dimen name="pixels_43">39dip</dimen>
+    <dimen name="pixels_44">40dip</dimen>
+    <dimen name="pixels_45">41dip</dimen>
+    <dimen name="pixels_46">46dip</dimen>
+    <dimen name="pixels_47">42dip</dimen>
+    <dimen name="pixels_48">43dip</dimen>
+    <dimen name="pixels_49">44dip</dimen>    
+    
+    <dimen name="pixels_50">45dip</dimen>
+    <dimen name="pixels_51">46dip</dimen>
+    <dimen name="pixels_52">47dip</dimen>
+    <dimen name="pixels_53">483dip</dimen>
+    <dimen name="pixels_54">49dip</dimen>
+    <dimen name="pixels_55">50dip</dimen>
+    <dimen name="pixels_56">51dip</dimen>
+    <dimen name="pixels_57">52dip</dimen>
+    <dimen name="pixels_58">53dip</dimen>
+    <dimen name="pixels_59">54dip</dimen>    
+    
+    
+    
+     <dimen name="pixels_60">55dip</dimen> 
+    <dimen name="pixels_61">56dip</dimen>
+    <dimen name="pixels_62">57dip</dimen>
+    <dimen name="pixels_63">58dip</dimen>
+    <dimen name="pixels_64">59dip</dimen>
+    <dimen name="pixels_65">60dip</dimen>
+    <dimen name="pixels_66">61dip</dimen>
+    <dimen name="pixels_67">62dip</dimen>
+    <dimen name="pixels_68">63dip</dimen>
+    <dimen name="pixels_69">64dip</dimen> 
+   
+    <dimen name="pixels_70">65dip</dimen> 
+    <dimen name="pixels_71">66dip</dimen>
+    <dimen name="pixels_72">67dip</dimen>
+    <dimen name="pixels_73">68dip</dimen>
+    <dimen name="pixels_74">69dip</dimen>
+    <dimen name="pixels_75">70dip</dimen>
+    <dimen name="pixels_76">71dip</dimen>
+    <dimen name="pixels_77">72dip</dimen>
+    <dimen name="pixels_78">73dip</dimen>
+    <dimen name="pixels_79">74dip</dimen>
+        
+    <dimen name="pixels_80">75dip</dimen> 
+    <dimen name="pixels_81">76dip</dimen>
+    <dimen name="pixels_82">77dip</dimen>
+    <dimen name="pixels_83">78dip</dimen>
+    <dimen name="pixels_84">79dip</dimen>
+    <dimen name="pixels_85">80dip</dimen>
+    <dimen name="pixels_86">81dip</dimen>
+    <dimen name="pixels_87">82dip</dimen>
+    <dimen name="pixels_88">83dip</dimen>
+    <dimen name="pixels_89">84dip</dimen>
+    
+    <dimen name="pixels_90">85dip</dimen>
+    <dimen name="pixels_91">86dip</dimen>
+    <dimen name="pixels_92">87dip</dimen>
+    <dimen name="pixels_93">88dip</dimen>
+    <dimen name="pixels_94">89dip</dimen>
+    <dimen name="pixels_95">90dip</dimen>
+    <dimen name="pixels_96">91dip</dimen>
+    <dimen name="pixels_97">92dip</dimen>
+    <dimen name="pixels_98">93dip</dimen>
+    <dimen name="pixels_99">94dip</dimen>
+    
+    <dimen name="pixels_100">95dip</dimen>
+    <dimen name="pixels_101">96dip</dimen>
+    <dimen name="pixels_102">97dip</dimen>
+    <dimen name="pixels_103">98dip</dimen>
+    <dimen name="pixels_104">99dip</dimen>
+    <dimen name="pixels_105">100dip</dimen>
+    <dimen name="pixels_106">101dip</dimen>
+    <dimen name="pixels_107">102dip</dimen>
+    <dimen name="pixels_108">103dip</dimen>
+    <dimen name="pixels_109">104dip</dimen>
+    
+    <dimen name="pixels_110">105dip</dimen>
+    <dimen name="pixels_111">106dip</dimen>
+    <dimen name="pixels_112">107dip</dimen>
+    <dimen name="pixels_113">108dip</dimen>
+    <dimen name="pixels_114">109dip</dimen>
+    <dimen name="pixels_115">110dip</dimen>
+    <dimen name="pixels_116">111dip</dimen>
+    <dimen name="pixels_117">112dip</dimen>
+    <dimen name="pixels_118">113dip</dimen>
+    <dimen name="pixels_119">114dip</dimen>
+    
+    <dimen name="pixels_120">115dip</dimen>
+    <dimen name="pixels_121">116dip</dimen>
+    <dimen name="pixels_122">117dip</dimen>
+    <dimen name="pixels_123">118dip</dimen>
+    <dimen name="pixels_124">119dip</dimen>
+    <dimen name="pixels_125">120dip</dimen>
+    <dimen name="pixels_126">121dip</dimen>
+    <dimen name="pixels_127">122dip</dimen>
+    <dimen name="pixels_128">123dip</dimen>
+    <dimen name="pixels_129">124dip</dimen>
+    
+    <dimen name="pixels_130">125dip</dimen>
+    <dimen name="pixels_131">126dip</dimen>
+    <dimen name="pixels_132">127dip</dimen>
+    <dimen name="pixels_133">128dip</dimen>
+    <dimen name="pixels_134">129dip</dimen>
+    <dimen name="pixels_135">130dip</dimen>
+    <dimen name="pixels_136">131dip</dimen>
+    <dimen name="pixels_137">132dip</dimen>
+    <dimen name="pixels_138">133dip</dimen>
+    <dimen name="pixels_139">134dip</dimen>
+    
+    <dimen name="pixels_150">145dip</dimen>
+    <dimen name="pixels_160">155dip</dimen>
+    <dimen name="pixels_180">175dip</dimen>
+    <dimen name="pixels_195">190dip</dimen>
+    <dimen name="pixels_200">195dip</dimen>
+    <dimen name="pixels_210">205dip</dimen>
+    <dimen name="pixels_300">295dip</dimen>
+    <dimen name="pixels_3_f">-38dip</dimen>
+    <dimen name="pixels_25_f">-30dip</dimen>
+    
+    
+    
+    
+  
+    
+</resources>

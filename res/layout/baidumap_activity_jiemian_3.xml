@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/lins1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/pixels_33"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/map_tab_banner"
+            style="@style/FormTop_map_tab_banner" >
+
+            <ImageButton
+                android:id="@+id/maprout_btnBack"
+                style="@style/FormTop_btnBack" />
+
+            <LinearLayout
+                android:id="@+id/btnview_map"
+                style="@style/FormTop_TextView_map" >
+
+                <Button
+                    android:id="@+id/drive"
+                    style="@style/maproute_topButton_LR"
+                    android:background="@drawable/btn_map_drive_on" />
+
+                <Button
+                    android:id="@+id/transit"
+                    style="@style/maproute_topButton_Mid"
+                    android:background="@drawable/btn_map_transit" />
+
+                <Button
+                    android:id="@+id/walk"
+                    style="@style/maproute_topButton_LR"
+                    android:background="@drawable/btn_map_walk" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/searchRoute"
+                style="@style/FormTop_BtnView_Style"
+                android:text="搜索" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/map_tab_banner"
+            android:background="#f6f6f6"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/textview_map"
+                style="@style/maproute_TextView_bac" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:orientation="vertical" >
+
+                    <LinearLayout style="@style/mapsearch_form_border" >
+
+                        <ImageButton
+                            android:id="@+id/start_add"
+                            style="@style/mapsearch_ImageButton_Left"
+                            android:background="@drawable/map_route_add" />
+
+                        <EditText
+                            android:id="@+id/start"
+                            style="@style/mapsearch_EditText_Style"
+                            android:hint="起点" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/mapsearch_form_border" >
+
+                        <ImageButton
+                            android:id="@+id/end_add"
+                            style="@style/mapsearch_ImageButton_Left"
+                            android:background="@drawable/map_route_add" />
+
+                        <EditText
+                            android:id="@+id/end"
+                            style="@style/mapsearch_EditText_Style"
+                            android:hint="终点" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2" >
+
+                    <ImageButton
+                        android:id="@+id/maprout_btnSwap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/pixels_20"
+                        android:layout_marginTop="@dimen/pixels_18"
+                        android:background="#00000000"
+                        android:src="@drawable/map_route_swap" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/lin_search" >
+
+            <com.baidutest.map.MyLocationMapViewXYZA
+                android:id="@+id/bmapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/pixels_10"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/central_point"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/btn_central_point" />
+
+                <Button
+                    android:id="@+id/traffic"
+                    android:layout_width="30dp"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/btn_map_traffic" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical"
+        android:topOffset="@dimen/pixels_115" >
+
+        <RelativeLayout
+            android:id="@+id/handle"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/pixels_33"
+            android:background="@drawable/btn_sliding" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#CCCCFF"
+            android:clickable="true"
+            android:orientation="vertical" >
+            <ListView
+                android:id="@+id/list_RouteResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <ExpandableListView
+                android:id="@+id/home_expandableListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+           >
+                
+            </ExpandableListView>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</RelativeLayout>

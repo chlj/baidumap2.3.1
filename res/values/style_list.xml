@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- list列表 -->
+    <style name="remind_list_itemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/pixels_4</item>
+        <item name="android:paddingLeft">@dimen/pixels_8</item>
+        <item name="android:paddingRight">@dimen/pixels_8</item>
+    </style>
+        <style name="xsjb_ivreset_down_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_35</item>
+        <item name="android:src">@drawable/btn_browser2</item>
+    </style>
+      <style name="xsjb_ivreset_up_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_35</item>
+        <item name="android:src">@drawable/btn_browser</item>
+    </style>
+    <style name="infolistname_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:paddingLeft">@dimen/pixels_10</item>
+        <item name="android:paddingRight">@dimen/pixels_25</item>
+        <item name="android:paddingTop">@dimen/pixels_35</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/dkgray</item>
+    </style>
+        <style name="infolistimage_small_Style">
+        <item name="android:layout_width">@dimen/pixels_40</item>
+        <item name="android:layout_height">@dimen/pixels_40</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_7</item>
+        <item name="android:src">@drawable/tpwxs</item>
+    </style>
+    <style name="name_textView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:paddingRight">@dimen/pixels_25</item>
+        <item name="android:paddingTop">@dimen/pixels_5</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">#010101</item>
+    </style>
+
+    <style name="time_textView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingRight">@dimen/pixels_25</item>
+        <item name="android:textColor">#969696</item>
+    </style>
+
+    <style name="remind_ivreset_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_20</item>
+        <item name="android:src">@drawable/nextnew</item>
+    </style>
+
+    <!-- 2 -->
+    <style name="contact_cntline">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#f0f0f0</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/pixels_10</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:paddingRight">@dimen/pixels_5</item>
+    </style>
+
+    <style name="contact_cntline_ll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/pixels_30</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:background">@drawable/contact_button</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/pixels_15</item>
+    </style>
+
+    <style name="contact_cntline_textview1">
+        <item name="android:layout_width">@dimen/pixels_50</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#635a5b</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="contact_cntline_textview2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#0f0f0f</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+    </style>
+
+    <style name="contact_cntline_textview3">
+        <item name="android:layout_width">@dimen/pixels_90</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#635a5b</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="contact_cntline_textview4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#635a5b</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- item_page。xml -->
+    <style name="item_page_text">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:layout_toRightOf">@+id/tv_imageView</item>
+        <item name="android:paddingRight">@dimen/pixels_5</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:layout_marginBottom">@dimen/pixels_10</item>
+        <item name="android:minWidth">@dimen/pixels_210</item>
+    </style>
+
+    <style name="item_page_imageview">
+        <item name="android:layout_marginRight">@dimen/pixels_5</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_5</item>
+    </style>
+    <!-- remind_list_item_map.xml -->
+    <style name="infolistimage_Style">
+        <item name="android:layout_width">@dimen/pixels_82</item>
+        <item name="android:layout_height">@dimen/pixels_78</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_7</item>
+        <item name="android:src">@drawable/list_map_pic</item>
+    </style>
+
+        <style name="infolistimage_Styl2">
+        <item name="android:layout_width">@dimen/pixels_82</item>
+        <item name="android:layout_height">@dimen/pixels_78</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_7</item>
+        <item name="android:src">@drawable/tpwxs</item>
+    </style>
+    
+    <style name="name_textView_map_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:layout_marginRight">@dimen/pixels_70</item>
+        <item name="android:paddingTop">@dimen/pixels_15</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@color/dkgray</item>
+    </style>
+
+    <style name="time_textView_map_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:layout_marginRight">@dimen/pixels_70</item>
+        <item name="android:textColor">#A4A4A4</item>
+    </style>
+
+    <style name="distance_textView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/pixels_25</item>
+        <item name="android:layout_marginTop">@dimen/pixels_35</item>
+        <item name="android:textColor">#A4A4A4</item>
+    </style>
+
+    <style name="xsjb_ivreset_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_35</item>
+        <item name="android:src">@drawable/nextnew</item>
+    </style>
+  <style name="infolistindex_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_35</item>
+        <item name="android:textColor">#A4A4A4</item>
+    </style>
+    
+    <!-- popview.xml -->
+    <style name="pop_page_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/info_bubble_jx</item>
+        <item name="android:paddingBottom">@dimen/pixels_15</item>
+        <item name="android:paddingLeft">@dimen/pixels_8</item>
+        <item name="android:paddingRight">@dimen/pixels_8</item>
+    </style>
+
+    <style name="pop_image_Style">
+        <item name="android:layout_width"> wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_7</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_10</item>
+        <item name="android:layout_marginRight">@dimen/pixels_7</item>
+        <item name="android:src">@drawable/list_map_pic</item>
+    </style>
+
+    <style name="pop_content_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:paddingRight">@dimen/pixels_60</item>
+        <item name="android:paddingTop">@dimen/pixels_7</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textColor">@color/dkgray</item>
+    </style>
+
+    <style name="pop_pic_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_30</item>
+        <item name="android:layout_marginRight">@dimen/pixels_15</item>
+        <item name="android:src">@drawable/detail_map_camera</item>
+    </style>
+    <!-- remind_tech_item_map.xml -->
+    <style name="tech_page_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/info_bubble</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:layout_marginBottom">@dimen/pixels_15</item>
+        <item name="android:paddingLeft">@dimen/pixels_8</item>
+        <item name="android:paddingRight">@dimen/pixels_8</item>
+    </style>
+
+    <style name="tech_listimage_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/pixels_7</item>
+        <item name="android:src">@drawable/tech_list_pic</item>
+    </style>
+
+    <style name="tech_title_textView_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/pixels_10</item>
+        <item name="android:textSize">@dimen/textsize_18</item>
+        <item name="android:textColor">@color/dkgray</item>
+    </style>
+
+    <style name="tech_address_textView_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/pixels_10</item>
+        <item name="android:paddingRight">@dimen/pixels_10</item>
+        <item name="android:paddingBottom">@dimen/pixels_5</item>
+        <item name="android:textColor">#A4A4A4</item>
+    </style>
+
+</resources>

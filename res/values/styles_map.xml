@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="tabview_map_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/map_top_repeat</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/pixels_15</item>
+        <item name="android:paddingRight">@dimen/pixels_15</item>
+    </style>    
+    <!-- 头部 -->
+    <style name="FormTop_BtnView_map">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_12</item>
+        <item name="android:layout_marginRight">@dimen/pixels_15</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:src">@drawable/map_bdsign</item>
+    </style>
+    <style name="FormTop_Button_map">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:layout_marginRight">@dimen/pixels_12</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>  
+    
+    <style name="FormTop_TextView_map">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/topTextSize</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+    </style>   
+    <!-- mapicon -->    
+    
+        
+    <!-- 搜索相关 -->  
+    <style name="mapsearch_form_border">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/pixels_8</item>
+        <item name="android:background">@drawable/form_border</item>
+    </style>
+    <style name="mapsearch_ImageButton_Left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_5</item>
+        <item name="android:layout_marginRight">@dimen/pixels_15</item>
+        <item name="android:layout_marginTop">@dimen/pixels_3</item>
+    </style>      
+    <style name="mapsearch_EditText_Style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/pixels_22</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+    </style>
+    <style name="map_searchmid">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_10</item>
+        <item name="android:layout_marginRight">@dimen/pixels_12</item>
+        <item name="android:background">@drawable/map_searchmid_top</item>
+    </style>
+    <style name="mapsearch_Button_Right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/pixels_8</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">#696969</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+    </style>
+    <!-- Route -->
+    <style name="maproute_topButton_Mid">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/pixels_8</item>
+        <item name="android:layout_marginRight">@dimen/pixels_8</item>
+        <item name="android:layout_marginTop">@dimen/pixels_9</item>
+    </style>
+    <style name="maproute_topButton_LR">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/pixels_9</item>
+    </style>
+    <style name="maproute_TextView_bac">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/pixels_20</item>
+        <item name="android:paddingRight">@dimen/pixels_20</item>
+        <item name="android:background">@drawable/map_route_repeat</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style><!-- <item name="android:background">@drawable/map_route_repeat</item> -->
+       <!-- popview。xml -->
+    <style name="map_popview_Layout">
+        <item name="android:textColor">#3b6cc9</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:minWidth">80dip</item>
+        <item name="android:paddingTop">@dimen/pixels_3</item>
+        <item name="android:paddingBottom">@dimen/pixels_3</item>
+    </style>
+
+    <style name="map_popview_button">
+        <item name="android:textSize">@dimen/textsize_16</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:width">120dip</item>
+    </style>    
+    <!-- mapsigndetaildis -->
+    <!-- 1 -->
+    <style name="mapsigndetails_cntline_one">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/mapdetail_fgx</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:paddingRight">@dimen/pixels_5</item>
+        <item name="android:paddingTop">@dimen/pixels_25_f</item>
+    </style>
+    <style name="mapsigndetails_content_one">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/signdetaildis_button</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingBottom">@dimen/pixels_5</item>
+        <item name="android:paddingLeft">@dimen/pixels_3</item>
+        <item name="android:paddingTop">@dimen/pixels_5</item>
+    </style>
+    <style name="mapsigndetails_content_onell">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">@dimen/pixels_50</item>
+        <item name="android:orientation">vertical</item>
+   	</style>
+   	<style name="mapsigndetails_content_oneimageview">
+   	    <item name="android:layout_width">wrap_content</item>
+   	    <item name="android:layout_height">wrap_content</item>
+   	    <item name="android:layout_marginBottom">@dimen/pixels_3</item>
+   	</style>
+   	<style name="mapsigndetails_content_onetextview">
+   	    <item name="android:layout_width">wrap_content</item>
+   	    <item name="android:layout_height">wrap_content</item>
+   	    <item name="android:gravity">center</item>
+   	    <item name="android:textSize">@dimen/textsize_10</item>
+   	    <item name="android:textColor">#717171</item>
+   	    <item name="android:textStyle">bold</item>
+   	</style>
+   	<style name="mapsigndetails_content_onefg">
+   	    <item name="android:layout_width">2dip</item>
+   	    <item name="android:layout_height">wrap_content</item>
+   	    <item name="android:layout_alignParentRight">true</item>
+   	    <item name="android:background">@drawable/mapdetail_fgx_mid</item>
+   	</style>
+    
+    <!-- 2 -->
+    <style name="mapsigndetails_cntline_two">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#f0f0f0</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/pixels_10</item>
+        <item name="android:paddingLeft">@dimen/pixels_5</item>
+        <item name="android:paddingRight">@dimen/pixels_5</item>
+    </style>        
+            <!-- android:layout_weight="1" -->
+    <style name="mapsigndetails_cntline_twoll">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/pixels_30</item>
+        <item name="android:layout_marginTop">@dimen/pixels_10</item>
+        <item name="android:background">@drawable/signdetaildis_button</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/pixels_15</item>
+    </style>     
+    <style name="mapsigndetails_cntline_twotextview1">
+        <item name="android:layout_width">@dimen/pixels_50</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#635a5b</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textStyle">bold</item>
+    </style>      
+    <style name="mapsigndetails_cntline_twotextview3">
+        <item name="android:layout_width">@dimen/pixels_90</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#635a5b</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:textStyle">bold</item>
+    </style>     
+    <style name="mapsigndetails_cntline_twotextview2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#0f0f0f</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        
+    </style>    <!-- <item name="android:textStyle">bold</item> -->
+     <!-- item_page。xml -->
+    <style name="map_item_page_text">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_toRightOf">@+id/tv_imageView</item>
+        <item name="android:paddingRight">@dimen/pixels_5</item>
+        <item name="android:paddingTop">@dimen/pixels_5</item>
+        <item name="android:paddingBottom">@dimen/pixels_5</item>
+    </style>    
+    
+    
+      <style name="FormTop_BtnView_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">@dimen/pixels_6</item>
+        <item name="android:layout_marginRight">@dimen/pixels_12</item>
+        <item name="android:background">@drawable/content_btn_btnbac</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/topTextSize</item>
+    </style>
+    
+</resources>

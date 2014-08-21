@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout02"
+	style="@style/remind_list_itemStyle" >
+
+    <ImageView
+        android:id="@+id/infolistimage"
+		style="@style/infolistimage_Styl2"/>
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_toRightOf="@+id/infolistimage"
+        style="@style/name_textView_map_Style"/>
+	<ImageView
+        android:id="@+id/xsjb_ivreset"
+        style="@style/xsjb_ivreset_Style"/>
+</RelativeLayout>
+ 
